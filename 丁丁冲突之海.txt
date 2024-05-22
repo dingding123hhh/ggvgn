@@ -2,7 +2,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁 �
 
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 
-local Window = OrionLib:MakeWindow({Name = "『丁丁与参天』", HidePremium = false, SaveConfig = true,IntroText = "『丁丁 coop』", ConfigFolder = "coop"})
+local Window = OrionLib:MakeWindow({Name = "『丁丁与参天』", HidePremium = false, SaveConfig = true,IntroText = "『丁丁 脚本』", ConfigFolder = "『参天脚本』"})
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "启动成功"; Text ="1.0"; Duration = 10; })
 
